@@ -11,7 +11,7 @@ class AnimalClassificationNeuralNet(nn.Module):
             nn.Conv2d(20, 40, 3), # 40 x 28 x 28
             nn.MaxPool2d(2), # 40 x 14 x 14
             nn.Conv2d(40, 20, 3), # 20 x 12 x 12
-            nn.MaxPool2d(2), # 20 x 7 x 7
+            nn.MaxPool2d(2), # 20 x 6 x 6
             nn.Flatten(),
             nn.Linear(20 * 6 * 6, 16),
             nn.Linear(16, out_features),

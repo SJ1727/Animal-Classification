@@ -1,7 +1,9 @@
 # Animal-Classification
-Classifies animals using the Animals-10 dataset
+Classifies animals using the Animals-10 
 
-butterfly=0
+Dataset : https://www.kaggle.com/datasets/alessiocorrado99/animals10
+
+butterfly=0 
 cat=1
 chicken=2
 cow=3

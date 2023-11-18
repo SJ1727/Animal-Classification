@@ -42,11 +42,13 @@ for epoch in range(EPOCHS):
         net_optim.step()
 
         if batch_idx % 20 == 0:
+            step += 1
+
             print(
                 f"Epoch [{epoch}/{EPOCHS}] Batch {batch_idx}/{len(loader)} \
                       Loss: {loss:.4f}"
             )
 
-            writer.add_scalar("Loss/train", loss, epoch)
+            writer.add_scalar("Loss/train", loss, step)
 
 writer.flush()
