@@ -8,7 +8,7 @@ def insert_into_csv(csv_filename, data):
     - csv_filename (str): The name of the CSV file to be inserted into.
     - data (list of tuples): A list of tuples where each tuple contains (image_path, label, human_label).
     """
-    with open(csv_filename, 'a', newline='') as csvfile:
+    with open(csv_filename, 'w', newline='') as csvfile:
         fieldnames = ['image_path', 'label', 'human_label']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
@@ -41,6 +41,8 @@ if __name__ == "__main__":
     # Filter out only the directories
     folders = [item for item in contents if os.path.isdir(os.path.join(DIRECTORY, item))]
 
+    data = []
+
     # Loops through all folders and add modified copies to new directory
     for folder in folders:
         folder_path = os.path.join(DIRECTORY, folder)
@@ -50,17 +52,8 @@ if __name__ == "__main__":
 
         image_names = os.listdir(folder_path)
 
-        # Loops through all images and stores data into csv
-        # Data in format: image_path, label, human_label
-        insert_into_csv(
-            CSV_PATH, 
-            tuple(
-                (
-                os.path.join(DIRECTORY, folder, image_name), 
-                labels[folder],
-                folder
-                )
-                for image_name in image_names
-            )
-        )
+        for image_name in image_names:
+            data.append((os.path.join(DIRECTORY, folder, image_name), labels[folder],folder))
+
+    insert_into_csv(CSV_PATH, data)
 

@@ -1,6 +1,4 @@
 image_path,label,human_label
-d,a,t
-image_path,label,human_label
 dataset64\butterfly\e030b20928e90021d85a5854ee454296eb70e3c818b413449df6c87ca3ed_640.jpg,0,butterfly
 dataset64\butterfly\e030b20929e90021d85a5854ee454296eb70e3c818b413449df6c87ca3ed_640.jpg,0,butterfly
 dataset64\butterfly\e030b2092be90021d85a5854ee454296eb70e3c818b413449df6c87ca3ed_640.jpg,0,butterfly
@@ -2113,7 +2111,6 @@ dataset64\butterfly\OIP-_YjI3TZsyO10g1xpwrtaYAHaFm.jpeg,0,butterfly
 dataset64\butterfly\OIP-_yOn1UTUWB7kWNmQOt93QAAAAA.jpeg,0,butterfly
 dataset64\butterfly\OIP-_z2ZnNHlWcjlKvdLpjxc2QHaC9.jpeg,0,butterfly
 dataset64\butterfly\OIP-_z8BmGoaFisnSQGFyl0QSgHaFj.jpeg,0,butterfly
-image_path,label,human_label
 dataset64\cat\1.jpeg,1,cat
 dataset64\cat\10.jpeg,1,cat
 dataset64\cat\100.jpeg,1,cat
@@ -3782,7 +3779,6 @@ dataset64\cat\sam-burriss-378658-unsplash.jpg,1,cat
 dataset64\cat\sarah-dorweiler-128578-unsplash.jpg,1,cat
 dataset64\cat\xenia-bogarova-422041-unsplash.jpg,1,cat
 dataset64\cat\zoltan-tasi-437454-unsplash.jpg,1,cat
-image_path,label,human_label
 dataset64\chicken\10.jpeg,2,chicken
 dataset64\chicken\100.jpeg,2,chicken
 dataset64\chicken\1000.jpeg,2,chicken
@@ -6881,7 +6877,6 @@ dataset64\chicken\OIP-_w0ZU-E6ct5AhsixqvSLfQHaES.jpeg,2,chicken
 dataset64\chicken\OIP-_X5DG5EPJjcXGQNwNi874QHaGl.jpeg,2,chicken
 dataset64\chicken\OIP-_yR039-4XwAnK2Tz14UJ5AHaLH.jpeg,2,chicken
 dataset64\chicken\OIP-_znRphRRmkJHnObfQ5XKLgEsDh.jpeg,2,chicken
-image_path,label,human_label
 dataset64\cow\OIP---lAIbDlHKmejDpqrXq6vAAAAA.jpeg,3,cow
 dataset64\cow\OIP--2ix__438O7A-yHzROPhGwHaFj.jpeg,3,cow
 dataset64\cow\OIP--8_E2EnxrYh7eym5nYRTJQHaE7.jpeg,3,cow
@@ -8748,7 +8743,6 @@ dataset64\cow\OIP-_vfO5oTfXbYTmQa3fLqygwHaEK.jpeg,3,cow
 dataset64\cow\OIP-_XTo_PganejtNU_34Qf-4AHaE8.jpeg,3,cow
 dataset64\cow\OIP-_YhteqH1eojqiNVzyYf9SAHaFG.jpeg,3,cow
 dataset64\cow\OIP-__wtYf6sbvlOlMBMHyA3OAAAAA.jpeg,3,cow
-image_path,label,human_label
 dataset64\dog\OIF-e2bexWrojgtQnAPPcUfOWQ.jpeg,4,dog
 dataset64\dog\OIP---A27bIBcUgX1qkbpZOPswHaFS.jpeg,4,dog
 dataset64\dog\OIP---cByAiEbIxIAleGo9AqOQAAAA.jpeg,4,dog
@@ -13612,7 +13606,6 @@ dataset64\dog\OIP-_yS9-9eIEztFUQgTqz2PVgHaGW.jpeg,4,dog
 dataset64\dog\OIP-_ZbJSvPHlAEP4YeyjtimhAHaJh.jpeg,4,dog
 dataset64\dog\OIP-_zMo5Tuf5UyDimOFh9gDMAHaHa.jpeg,4,dog
 dataset64\dog\OIP-__Yu1XH3iAC10OzGQFpC-AHaE8.jpeg,4,dog
-image_path,label,human_label
 dataset64\elephant\e032b10b2df21c22d2524518b7444f92e37fe5d404b0144390f8c07aa5ecb6_640.jpg,5,elephant
 dataset64\elephant\e130b80b2ef11c22d2524518b7444f92e37fe5d404b0144390f8c07aa4e5b0_640.jpg,5,elephant
 dataset64\elephant\e131b0072ee90021d85a5854ee454296eb70e3c818b413449df1c27ba6ee_640.jpg,5,elephant
@@ -15059,7 +15052,6 @@ dataset64\elephant\OIP-_tZnd3cjTmivAJ3waOQTDgHaF7.jpeg,5,elephant
 dataset64\elephant\OIP-_u8ltJ8p71_RFtOBr7QQvQHaFj.jpeg,5,elephant
 dataset64\elephant\OIP-_ZH0upO4IX2Ygm0SnHAu6AHaE9.jpeg,5,elephant
 dataset64\elephant\OIP-__qGFqKHtvSOtNIkBy4zywHaFj.jpeg,5,elephant
-image_path,label,human_label
 dataset64\horse\OIP---MGqQIhmz3OEPYP-46_xwHaFj.jpeg,6,horse
 dataset64\horse\OIP---sK_NCo5VFiDavIY-pUdgHaFB.jpeg,6,horse
 dataset64\horse\OIP--1hNp1smpwT06GTxZbUVwgHaFi.jpeg,6,horse
@@ -17683,7 +17675,6 @@ dataset64\horse\OIP-_uVsI4dJvw5grQhuU_GhxQHaFj.jpeg,6,horse
 dataset64\horse\OIP-_uxyLP5VsLindcLS7zo0JAEsDh.jpeg,6,horse
 dataset64\horse\OIP-_yOgn7ZlG5BlAKGYGdo26gAAAA.jpeg,6,horse
 dataset64\horse\OIP-_zJyP5n6EgST1ooshBckeQHaE8.jpeg,6,horse
-image_path,label,human_label
 dataset64\sheep\e032b5082ef61c22d2524518b7444f92e37fe5d404b0144390f8c078a0eabd_640.jpg,7,sheep
 dataset64\sheep\e034b80f2ff61c22d2524518b7444f92e37fe5d404b0144390f8c078a0eabd_640.jpg,7,sheep
 dataset64\sheep\e037b00b2af41c22d2524518b7444f92e37fe5d404b0144390f8c078a0eabd_640.jpg,7,sheep
@@ -19504,7 +19495,6 @@ dataset64\sheep\OIP-_nsLxcFfRURcIBDrWI-JoAHaE7.jpeg,7,sheep
 dataset64\sheep\OIP-_q69b0aNwV00VbhnYESOYgAAAA.jpeg,7,sheep
 dataset64\sheep\OIP-_wDFEaRqVSJoD9Zku9LVzgHaEK.jpeg,7,sheep
 dataset64\sheep\OIP-_w_82yNlmkK6C-dNpVJOXQHaHP.jpeg,7,sheep
-image_path,label,human_label
 dataset64\spider\e034b90b20f11c22d2524518b7444f92e37fe5d404b0144390f8c47ba6ebb4_640.jpg,8,spider
 dataset64\spider\e03db4072cf01c22d2524518b7444f92e37fe5d404b0144390f8c47ba6edbc_640.jpg,8,spider
 dataset64\spider\e830b2062dfc023ed1584d05fb1d4e9fe777ead218ac104497f5c97ca5ecb5b1_640.jpg,8,spider
@@ -24326,7 +24316,6 @@ dataset64\spider\OIP-_zeCexRhiH6YrXM1E6joOQHaFk.jpeg,8,spider
 dataset64\spider\OIP-__0iRbh2nZ5IBz0_36hn3wHaGM.jpeg,8,spider
 dataset64\spider\OIP-__HPppHyk7d0izZybMZ9bgAAAA.jpeg,8,spider
 dataset64\spider\OIP-__qj6cVsZczVe8U0H1MaLQHaFG.jpeg,8,spider
-image_path,label,human_label
 dataset64\squirrel\OIP--0Yr2a_yg2hs5QgCoHAOnAHaLJ.jpeg,9,squirrel
 dataset64\squirrel\OIP--2DLJjX4d5SG0eF_EXsO9AHaEk.jpeg,9,squirrel
 dataset64\squirrel\OIP--9CxJkCleiNXywWpQhEUDAHaE7.jpeg,9,squirrel
