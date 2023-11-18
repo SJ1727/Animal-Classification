@@ -52,5 +52,15 @@ if __name__ == "__main__":
 
         # Loops through all images and stores data into csv
         # Data in format: image_path, label, human_label
-        insert_into_csv(CSV_PATH, tuple((os.path.join(DIRECTORY, folder, image_name), labels[folder], folder) for image_name in image_names))
+        insert_into_csv(
+            CSV_PATH, 
+            tuple(
+                (
+                os.path.join(DIRECTORY, folder, image_name), 
+                labels[folder],
+                folder
+                )
+                for image_name in image_names
+            )
+        )
 
