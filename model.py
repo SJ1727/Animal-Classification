@@ -15,7 +15,7 @@ class AnimalClassificationNeuralNet(nn.Module):
             nn.Flatten(),
             nn.Linear(20 * 6 * 6, 16),
             nn.Linear(16, out_features),
-            nn.Sigmoid(),
+            nn.SoftMax(),
         )
 
     def forward(self, x):
