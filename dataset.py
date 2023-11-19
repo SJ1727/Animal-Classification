@@ -6,7 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, utils
-from  torchvision.transforms.functional import pil_to_tensor
 
 # Ignore warnings
 import warnings
@@ -33,7 +32,6 @@ class AnimalDataset(Dataset):
         image_label = int(self.data_frame.iloc[index, 1])
         image_human_label = self.data_frame.iloc[index, 2]
         image = Image.open(image_path).convert("RGB")
-        #sample = {"image" : image, "label" : image_label, "human_label" : image_human_label}
         sample = [image, image_label, image_human_label]
 
         if self.transform:
