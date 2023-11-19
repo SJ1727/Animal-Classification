@@ -13,8 +13,9 @@ writer = SummaryWriter()
 
 BATCH_SIZE = 64
 LEARNING_RATE = 1e-3
-EPOCHS = 10
+EPOCHS = 50
 
+# Normilisation for images
 transforms = transforms.Compose(
     [
         transforms.ToTensor(),
@@ -32,15 +33,20 @@ step = 0
 
 for epoch in range(EPOCHS):
     for batch_idx, (images, labels, _) in enumerate(loader):
+        # Reshape and put tensors to device
         images = images.to(device)
         labels = labels.view(-1).to(device)
 
+        # Forward pass and gradient calculation
         predictions = net(images)
         net.zero_grad()
         loss = criterion(predictions, labels.long())
         loss.backward()
+
+        # Updating parameters
         net_optim.step()
 
+        # Tensor Board and loss display
         if batch_idx % 20 == 0:
             step += 1
 
@@ -52,3 +58,5 @@ for epoch in range(EPOCHS):
             writer.add_scalar("Loss/train", loss, step)
 
 writer.flush()
+
+torch.save(net.state_dict(), "model.pt")

@@ -1,1 +1,5 @@
+# Ignores files created during training containing loss function data
 runs
+
+# Ignore saved pytorch files
+*.pt
